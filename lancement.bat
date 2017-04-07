@@ -1,2 +1,2 @@
-npm --version
-protractor --version
+start npm --version
+start protractor --version
