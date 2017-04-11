@@ -1,5 +1,5 @@
-projectKey=org.sonarqube:protractor2-project
+projectKey=org.sonarqube:protractor-project
 serverUrl=http://localhost:9000
-dashboardUrl=http://localhost:9000/dashboard/index/org.sonarqube:protractor2-project
-ceTaskId=AVtYX5MFo0yJc8GoC8ue
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AVtYX5MFo0yJc8GoC8ue
+dashboardUrl=http://localhost:9000/dashboard/index/org.sonarqube:protractor-project
+ceTaskId=AVtYb7KVo0yJc8GoC8uf
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVtYb7KVo0yJc8GoC8uf
