@@ -1,12 +1,13 @@
 // conf.js
 exports.config = {
-  framework: 'jasmine',
-  seleniumAddress: 'http://localhost:4445/wd/hub',
-  specs: ['spec.js', 'spec2.js'],
-  capabilities: {
-    browserName: 'chrome'
-  },
-  jasmineNodeOpts: {
-	showColors: true,
-  }
+   	directConnect: true,
+	framework: 'jasmine',
+	chromeDriver: '../node_modules/chromedriver/lib/chromedriver/chromedriver.exe',
+	specs: ['spec.js', 'spec2.js'],
+	capabilities: {
+		browserName: 'chrome'
+	},
+	jasmineNodeOpts: {
+		showColors: true,
+	}
 };
