@@ -2,10 +2,10 @@
 exports.config = {
    	directConnect: true,
 	framework: 'jasmine',
-	chromeDriver: '/home/jenkins/firefox/50.0.2/firefox',
+	chromeDriver: 'Chromedriver-2.6_HOME',
 	specs: ['spec.js', 'spec2.js'],
 	capabilities: {
-		browserName: 'firefox'
+		browserName: 'chrome'
 	},
 	jasmineNodeOpts: {
 		showColors: true,
